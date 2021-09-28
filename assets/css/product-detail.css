@@ -1,0 +1,223 @@
+.card {
+  background-color: rgba(255,255,255,0);
+  background-clip: border-box;
+  border: none;
+  border-radius: 0px;
+}
+
+fieldset.active {
+  display: block !important;
+}
+
+fieldset {
+  display: none;
+}
+
+.pic0 {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0px 0px 0px 110px;
+  padding-right: 10px;
+}
+
+.product-pic {
+  width: 100%;
+  height: auto;
+}
+
+.thumbnails {
+  position: absolute;
+}
+
+.fit-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.tb {
+  width: 100%;
+  border: none;
+  margin: 0px 0px 5px 0px;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.tb-active {
+  opacity: 1;
+}
+
+.thumbnail-img {
+  width: 100px;
+  height: 100px;
+}
+
+.product-detail-title {
+  font-family: Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 50px;
+  color: #003C35;
+}
+
+.product-detail-price {
+  font-family: Baskerville;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 35px;
+  color: #003C35;
+  margin-bottom: 30px;
+}
+
+.product-detail-price-normal {
+  margin-right: 5px;
+  font-family: Baskerville;
+}
+
+.product-detail-price-disc {
+  font-family: Baskerville;
+}
+
+.product-detail-decription {
+  margin-bottom: 30px;
+}
+
+.product-detail-decription-text {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.product-swatch-header {
+  font-size: 14px;
+}
+
+.product-swatch-container {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.product-swatches {
+  display: inline-block;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.product-swatch {
+  position: relative;
+  padding: 0px 10px;
+  font-size: 14px;
+}
+
+.product-detail-button-group {
+  margin-bottom: 30px;
+}
+
+.product-detail-add-info {
+  display: block;
+  margin: 30px 0px;
+}
+
+.product-detail-add-info-items {
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  color: #434547;
+}
+
+.product-detail-add-info-item {
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: normal;
+  color: #434547;
+}
+
+/* Style the tab */
+
+.info-tabs {
+  margin: 30px 0px 60px 0px;
+  height: auto;
+}
+
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+  /*background-color: #ccc;*/
+  border-bottom: 1px solid black;
+}
+
+.tablinks {
+  border-radius: 0px;
+}
+
+.tablinks span {
+  font-size: 12px;
+  letter-spacing: 0.35em;
+  color: #434547;
+}
+
+/* Style the tab content */
+
+.tabcontent {
+  display: none;
+  height: auto;
+  margin: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+  height: 100px;
+  font-size: 14px;
+}
+
+/* Fade in tabs */
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.product-layout-list-sugest {
+  /*display: grid;*/
+  text-align: center;
+  height: auto;
+  align-content: space-evenly;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px 0px 10px 10px;
+}
+
+.direct-sugest-product {
+  padding: 35px 0px;
+}
+

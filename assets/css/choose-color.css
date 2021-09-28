@@ -1,0 +1,64 @@
+/* -- Choose Color -- */
+
+.warp-color-switch {
+  display: inline-block;
+}
+
+.product-color-switch {
+  list-style-type: none;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.product-colour-items {
+  position: relative;
+  border-radius: 50%;
+  border: .0625rem solid transparent;
+  margin-right: .375rem;
+  padding: .1875rem;
+}
+
+.switch-anchor {
+  display: block;
+  position: relative;
+}
+
+.switch-anchor a {
+  text-decoration: none;
+  color: currentColor;
+  font-family: proxima-nova,sans-serif;
+  transition: all .2s ease-in-out;
+}
+
+[role=button], a, button, input, label, select, textarea {
+  touch-action: manipulation;
+}
+
+.switch-item-bg {
+  width: 1.3125rem;
+  height: 1.3125rem;
+  border-radius: 50%;
+  z-index: 0;
+  border: .0625rem solid #979797;
+}
+
+.item-active {
+  border-color: #333;
+}
+
+.switch-img {
+  position: absolute;
+  width: 1.3125rem;
+  height: 1.3125rem;
+  display: block;
+  border-radius: 50%;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  max-width: none;
+}
+

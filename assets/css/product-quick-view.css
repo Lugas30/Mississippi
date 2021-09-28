@@ -1,0 +1,74 @@
+/* Modal Quick View Content */
+
+.quickview-content {
+  padding: 20px;
+}
+
+.quickview-content-title {
+  font-family: Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 40px;
+  color: #003C35;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.quickview-content-price {
+  font-size: 12px;
+  line-height: 17px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.quickview-content-description {
+  display: block;
+  padding-bottom: 20px;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+/* The Close Button */
+
+.close {
+  position: relative;
+  z-index: 1000;
+  color: #434547;
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.quickview-content-price-disc {
+}
+
+/* -- Carousel -- */
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  filter: invert(100%);
+}
+
+.carousel-control-next i, .carousel-control-prev i {
+  filter: invert(100%);
+  font-size: 16px;
+}
+
+.carousel-indicators li {
+  width: 0px;
+  height: 0px;
+  border-radius: 100%;
+}
+

@@ -9,7 +9,7 @@
 }
 
 .product-layout-list {
-  display: grid;
+  /*display: grid;*/
   text-align: center;
   height: auto;
   align-content: space-evenly;
@@ -43,7 +43,6 @@
   line-height: 29px;
   text-align: center;
   color: #003C35;
-  text-transform: capitalize;
 }
 
 .product-inner-price {

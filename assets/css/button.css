@@ -1,3 +1,8 @@
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .btn-type-1 {
   border: 1px solid #434547;
   padding: 10px 20px;
@@ -13,5 +18,60 @@
 .btn-type-1:hover {
   color: #434547;
   text-decoration: none;
+}
+
+.btn-product-tag {
+  border: 1px solid #434547;
+  width: auto;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  font-size: 10px;
+  text-transform: uppercase;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.35em;
+  color: #434547;
+}
+
+.btn-product-tag:focus {
+  display: none;
+}
+
+.btn-product-tag:hover {
+  color: #434547;
+  text-decoration: none;
+}
+
+.btn-add-cart {
+  border: 1px solid #434547;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 14px;
+  text-align: center;
+  border-radius: 0px;
+  letter-spacing: 0.35em;
+  color: #434547;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.btn-add-cart:hover {
+  color: #ffffff;
+  background-color: #003C35;
+  text-decoration: none;
+}
+
+.btn-add-wishlist {
+  padding: 15px 0px;
+  box-sizing: border-box;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.35em;
+  color: #434547;
+  display: block;
 }
 
