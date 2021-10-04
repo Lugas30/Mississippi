@@ -75,3 +75,49 @@
   display: block;
 }
 
+.btn-login-register {
+  border: 1px solid #434547;
+  padding: 15px 20px;
+  width: 150px;
+  box-sizing: border-box;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 14px;
+  text-align: center;
+  border-radius: 0px;
+  letter-spacing: 0.35em;
+  color: #434547;
+  margin-bottom: 10px;
+}
+
+.btn-login-register button {
+  display: inline-block;
+}
+
+.btn-login-register:hover {
+  color: #ffffff;
+  background-color: #003C35;
+  text-decoration: none;
+}
+
+.btn-type-2 {
+  border: 1px solid #434547;
+  display: block;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 14px;
+  text-align: center;
+  border-radius: 0px;
+  letter-spacing: 0.35em;
+  color: #434547;
+  margin-bottom: 10px;
+}
+
+.btn-type-2:hover {
+  color: #ffffff;
+  background-color: #003C35;
+  text-decoration: none;
+}
+

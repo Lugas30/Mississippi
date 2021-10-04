@@ -30,6 +30,11 @@ body {
   }
 }
 
+button:focus, input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 ol, ul {
   list-style: none;
 }
@@ -58,7 +63,7 @@ h1, h2, h3, {
   font-family: 'Libre Baskerville';
 }
 
-h4, h5, h6, p, span, a, li, button {
+h4, h5, h6, p, span, a, li, button, input, label {
   font-family: 'Nunito Sans';
 }
 
