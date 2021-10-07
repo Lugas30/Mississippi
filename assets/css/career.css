@@ -1,0 +1,79 @@
+.career-descript {
+  margin: 40px 0px;
+}
+
+.career-contact-cv {
+  text-decoration: none;
+  color: #434547;
+  font-size: 11px;
+  border: 1px solid #434547;
+  padding: 30px 15px;
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.career-contact-cv-ask {
+  display: inline-block;
+}
+
+.career-contact-cv-email {
+  float: right;
+  display: inline-flex;
+}
+
+.career-contact-cv-email strong {
+  font-weight: 700;
+}
+
+.career-jobs-title a {
+  font-family: Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #434547;
+}
+
+.career-jobs-title a:hover {
+  color: #003C35;
+}
+
+.card-header {
+  border-bottom: 1px solid rgba(67,69,71,0.5);
+  background-color: inherit;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.career-jobs-title-details {
+  font-size: 10px;
+  letter-spacing: 3px;
+  float: right;
+}
+
+.career-banner {
+  margin: 20px 0px;
+}
+
+.career-banner-img {
+  object-fit: cover;
+  max-height: 350px;
+  width: 100%;
+}
+
+.title-header-career {
+  font-size: 45px;
+  color: #003C35;
+  margin: 20px 0px;
+}
+
+.card-text.career-jobs-content {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.card-body.career-jobs-card-body {
+  padding: 40px 30px;
+}
+

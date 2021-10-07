@@ -413,3 +413,48 @@ h4, h5, h6, p, span, a, li, button, input, label {
   color: white;
 }
 
+/* -- Thankyou page -- */
+
+.thank-page-title {
+  padding: 20px;
+  font-size: 30px;
+  font-family: Baskerville;
+  color: #003C35;
+  line-height: 35px;
+}
+
+.thank-page-order-number {
+  padding: 20px;
+}
+
+.order-num {
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.thank-page-note {
+  padding: 20px 10px;
+  line-height: 30px;
+}
+
+.thank-page-button-group {
+  margin: 30px 10px;
+}
+
+.thank-page-button-group a {
+  margin: 10px;
+}
+
+.input-block-white {
+  display: block;
+  height: 80px;
+  width: 100%;
+  padding: 20px;
+  top: 349px;
+  border: none;
+  color: #434547;
+  font-size: 14px;
+}
+
