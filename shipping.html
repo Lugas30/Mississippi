@@ -12,13 +12,18 @@
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/btn-to-top.css">
     <link rel="stylesheet" href="assets/css/button.css">
     <link rel="stylesheet" href="assets/css/career.css">
     <link rel="stylesheet" href="assets/css/cart.css">
     <link rel="stylesheet" href="assets/css/choose-color.css">
     <link rel="stylesheet" href="assets/css/choose-size-stock.css">
+    <link rel="stylesheet" href="assets/css/location.css">
     <link rel="stylesheet" href="assets/css/login-register.css">
+    <link rel="stylesheet" href="assets/css/mega-dropdown.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/product-detail.css">
     <link rel="stylesheet" href="assets/css/product-layout.css">
     <link rel="stylesheet" href="assets/css/product-quick-view.css">
@@ -36,7 +41,7 @@
         <div class="row pt-5 pb-5">
             <div class="col-8">
                 <div class="row pb-5">
-                    <div class="col-12"><span class="title-input">NAME</span><input type="text" class="input-block" placeholder="First name *"></div>
+                    <div class="col-12"><span class="title-input">FULL&nbsp;NAME</span><input type="text" class="input-block" placeholder="First name *"></div>
                     <div class="col-12"><span class="title-input">ADDRESS</span><input type="text" class="input-block" placeholder="Address *"></div>
                     <div class="col-6"><span class="title-input">PROVINCE</span><select class="form-control" name="Province"><option value="0">Province</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select></div>
                     <div
@@ -48,147 +53,193 @@
         <div class="col-12"><span class="title-input">SHIPPING</span><select class="form-control" name="Province"><option value="0">Sicepat</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select></div>
         <div
             class="col-12"><span class="title-input">SERVICE</span><select class="form-control" name="Province"><option value="0">Regular</option><option value="1">Kilat</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select></div>
-    </div>
-    </div>
-    <div class="col-4 shpcart-sum">
-        <div class="shpcart-sum-wrapper"><span class="mini-heading">Note for seller</span>
-            <div class="py-2">
-                <p class="pt-2 pb-3 note-seller"><em>If you have some information for the seller you can leave them in the box below</em><br></p>
-            </div>
-            <div><input type="text" class="input-block-white" placeholder="Enter note here *"></div>
+    <div
+        class="shpcart-sum-wrapper"><span class="mini-heading">Note for seller</span>
+        <div class="py-2">
+            <p class="pt-2 pb-3 note-seller"><em>If you have some information for the seller you can leave them in the box below</em><br></p>
         </div>
-        <div class="shpcart-sum-wrapper"><span class="mini-heading">Total</span>
+        <div class="col-md-12 p-0">
+            <div><textarea class="input-block-textarea" placeholder="Enter note here *"></textarea></div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="summary-details-order"><span class="product-detail-title">Your Order</span>
+                <div class="summary-inline-content mt-5">
+                    <div class="row no-gutters">
+                        <div class="col-auto"><img width="120px" height="auto" src="assets/img/prod2.png"></div>
+                        <div class="col summary-details-item">
+                            <div class="row no-gutters">
+                                <div class="col-lg-3 d-lg-flex align-items-lg-center">
+                                    <div class="summary-details-item-title"><a href="#"><span>Blazer in cream</span></a></div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="summary-details-item-price"><span class="price-off">IDR 399.100</span><span>IDR 359.100</span><span class="disc-percentage">(-10%)</span></div>
+                                </div>
+                                <div class="col-lg-1 d-lg-flex justify-content-lg-center align-items-lg-center">
+                                    <div class="summary-details-item-detail"><span class="p-3">1x</span></div>
+                                </div>
+                                <div class="col-lg-5 d-lg-flex justify-content-lg-center align-items-lg-center">
+                                    <div class="summary-details-item-detail"><span class="p-3">&nbsp;M&nbsp;</span><i class="icon-arrow-right p-3"></i><span class="p-3">&nbsp;Cream&nbsp;</span><i class="icon-arrow-right p-3"></i><span class="p-3">300gr</span></div>
+                                </div>
+                                <div class="col-lg-1 d-lg-flex align-items-lg-center">
+                                    <div class="summary-details-item-price"><span>IDR 359.100</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row no-gutters">
+                        <div class="col-auto"><img width="120px" height="auto" src="assets/img/prod2.png"></div>
+                        <div class="col summary-details-item">
+                            <div class="row no-gutters">
+                                <div class="col-lg-3 d-lg-flex align-items-lg-center">
+                                    <div class="summary-details-item-title"><a href="#"><span>Blazer in cream</span></a></div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="summary-details-item-price"><span class="price-off">IDR 399.100</span><span>IDR 129.100</span><span class="disc-percentage">(-50%)</span></div>
+                                </div>
+                                <div class="col-lg-1 d-lg-flex justify-content-lg-center align-items-lg-center">
+                                    <div class="summary-details-item-detail"><span class="p-3">2x</span></div>
+                                </div>
+                                <div class="col-lg-5 d-lg-flex justify-content-lg-center align-items-lg-center">
+                                    <div class="summary-details-item-detail"><span class="p-3">&nbsp;M&nbsp;</span><i class="icon-arrow-right p-3"></i><span class="p-3">&nbsp;Cream&nbsp;</span><i class="icon-arrow-right p-3"></i><span class="p-3">600gr</span></div>
+                                </div>
+                                <div class="col-lg-1 d-lg-flex align-items-lg-center">
+                                    <div class="summary-details-item-price"><span>IDR 258.000</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
             <div class="summary-inline-content">
-                <div class="summary-inline"><span class="sub-title">SUBTOTAL</span><span class="summary-output">IDR 359.100</span></div>
+                <div class="summary-inline"><span class="sub-title">SUBTOTAL</span><span class="summary-output">IDR 617.000</span></div>
                 <hr>
-                <div class="summary-inline"><span class="sub-title">SHIPPING</span><span class="summary-output">IDR 0</span></div>
+                <div class="summary-inline"><span class="sub-title">SHIPPING</span><span class="summary-output">IDR 20.000</span></div>
                 <hr>
                 <div class="summary-inline"><span class="sub-title">DISCOUNT</span><span class="summary-output">IDR 0</span></div>
                 <hr>
                 <div class="summary-inline"><span class="sub-title">TOTAL</span><span class="summary-output">IDR 359.100</span></div>
-            </div>
-            <div class="summary-button-warp"><a class="btn-type-2" href="#">NEXT TO PAYMENT</a></div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="summary-details-order"><span class="product-detail-title">Your Order</span>
-            <div class="summary-inline-content mt-5">
-                <ul class="list-unstyled mb-4">
-                    <li class="d-flex justify-content-between py-3 border-bottom"><span>Graphic Embro T-shirt Yellow<br><span style="font-size: 14px;">Yellow (S) x 2 , weight : 600 gr , IL2203B<br></span></span><span><strong>IDR 290.000</strong><br></span></li>
-                    <li class="d-flex justify-content-between py-3 border-bottom"><span>Graphic Embro T-shirt Yellow<br><span style="font-size: 14px;">Yellow (S) x 2 , weight : 300 gr ,&nbsp;IL2203B<br></span></span><span><strong>IDR 145.000</strong><br></span></li>
-                </ul>
+                <div class="pt-5 shipping-button-warp"><a class="btn-type-2" href="midtrans.html">NEXT TO PAYMENT</a></div>
             </div>
         </div>
-    </div>
-    </div>
-    <div class="direct-sugest-product"><span class="product-detail-title">Your Wishlist</span>
-        <div class="row no-gutters product-layout-list-sugest mt-3">
-            <div class="col product">
-                <a href="#">
-                    <div class="product-warp"><img class="product-layout-list-img" src="assets/img/prod1.png" loading="lazy">
-                        <div class="product-overlay">
-                            <div class="product-overlay-group"><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Cart"><img class="product-overlay-btn-img" src="assets/img/bag.png"></a><button class="btn align-items-lg-center" type="button"
-                                    data-target="#myModal" data-toggle="modal"><img class="product-overlay-btn-img" src="assets/img/visibility.png"></button><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Whistlist"><img class="product-overlay-btn-img" src="assets/img/heart.png"></a></div>
+        </div>
+        <div class="direct-sugest-product"><span class="product-detail-title">Your Wishlist</span>
+            <div class="row no-gutters product-layout-list-sugest mt-3">
+                <div class="col product">
+                    <a href="#">
+                        <div class="product-warp"><img class="product-layout-list-img" src="assets/img/prod1.png" loading="lazy">
+                            <div class="product-overlay">
+                                <div class="product-overlay-group"><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Cart"><img class="product-overlay-btn-img" src="assets/img/bag.png"></a><button class="btn align-items-lg-center" type="button"
+                                        data-target="#myModal" data-toggle="modal"><img class="product-overlay-btn-img" src="assets/img/visibility.png"></button><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Whistlist"><img class="product-overlay-btn-img" src="assets/img/heart.png"></a></div>
+                            </div>
                         </div>
+                    </a>
+                    <div class="product-inner"><span class="product-inner-name">Blouse sleeve mocca</span>
+                        <div class="product-inner-price"><span class="product-inner-price-normal">IDR 399.000</span></div>
                     </div>
-                </a>
-                <div class="product-inner"><span class="product-inner-name">Blouse sleeve mocca</span>
-                    <div class="product-inner-price"><span class="product-inner-price-normal">IDR 399.000</span></div>
                 </div>
-            </div>
-            <div class="col product">
-                <a href="#">
-                    <div class="product-warp"><img class="product-layout-list-img" src="assets/img/prod1.png" loading="lazy">
-                        <div class="product-overlay">
-                            <div class="product-overlay-group"><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Cart"><img class="product-overlay-btn-img" src="assets/img/bag.png"></a><button class="btn align-items-lg-center" type="button"
-                                    data-target="#myModal" data-toggle="modal"><img class="product-overlay-btn-img" src="assets/img/visibility.png"></button><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Whistlist"><img class="product-overlay-btn-img" src="assets/img/heart.png"></a></div>
+                <div class="col product">
+                    <a href="#">
+                        <div class="product-warp"><img class="product-layout-list-img" src="assets/img/prod1.png" loading="lazy">
+                            <div class="product-overlay">
+                                <div class="product-overlay-group"><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Cart"><img class="product-overlay-btn-img" src="assets/img/bag.png"></a><button class="btn align-items-lg-center" type="button"
+                                        data-target="#myModal" data-toggle="modal"><img class="product-overlay-btn-img" src="assets/img/visibility.png"></button><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Whistlist"><img class="product-overlay-btn-img" src="assets/img/heart.png"></a></div>
+                            </div>
                         </div>
+                    </a>
+                    <div class="product-inner"><span class="product-inner-name">Blouse sleeve mocca</span>
+                        <div class="product-inner-price"><span class="product-inner-price-normal price-off">IDR 399.000</span><span class="product-inner-price-disc">IDR 250.000</span></div>
                     </div>
-                </a>
-                <div class="product-inner"><span class="product-inner-name">Blouse sleeve mocca</span>
-                    <div class="product-inner-price"><span class="product-inner-price-normal price-off">IDR 399.000</span><span class="product-inner-price-disc">IDR 250.000</span></div>
                 </div>
-            </div>
-            <div class="col product">
-                <a href="#">
-                    <div class="product-warp"><img class="product-layout-list-img" src="assets/img/prod1.png" loading="lazy">
-                        <div class="product-overlay">
-                            <div class="product-overlay-group"><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Cart"><img class="product-overlay-btn-img" src="assets/img/bag.png"></a><button class="btn align-items-lg-center" type="button"
-                                    data-target="#myModal" data-toggle="modal"><img class="product-overlay-btn-img" src="assets/img/visibility.png"></button><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Whistlist"><img class="product-overlay-btn-img" src="assets/img/heart.png"></a></div>
+                <div class="col product">
+                    <a href="#">
+                        <div class="product-warp"><img class="product-layout-list-img" src="assets/img/prod1.png" loading="lazy">
+                            <div class="product-overlay">
+                                <div class="product-overlay-group"><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Cart"><img class="product-overlay-btn-img" src="assets/img/bag.png"></a><button class="btn align-items-lg-center" type="button"
+                                        data-target="#myModal" data-toggle="modal"><img class="product-overlay-btn-img" src="assets/img/visibility.png"></button><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Whistlist"><img class="product-overlay-btn-img" src="assets/img/heart.png"></a></div>
+                            </div>
                         </div>
+                    </a>
+                    <div class="product-inner"><span class="product-inner-name">Blouse sleeve mocca</span>
+                        <div class="product-inner-price"><span class="product-inner-price-normal price-off">IDR 399.000</span><span class="product-inner-price-disc">IDR 250.000</span></div>
                     </div>
-                </a>
-                <div class="product-inner"><span class="product-inner-name">Blouse sleeve mocca</span>
-                    <div class="product-inner-price"><span class="product-inner-price-normal price-off">IDR 399.000</span><span class="product-inner-price-disc">IDR 250.000</span></div>
                 </div>
-            </div>
-            <div class="col product">
-                <a href="#">
-                    <div class="product-warp"><img class="product-layout-list-img" src="assets/img/prod1.png" loading="lazy">
-                        <div class="product-overlay">
-                            <div class="product-overlay-group"><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Cart"><img class="product-overlay-btn-img" src="assets/img/bag.png"></a><button class="btn align-items-lg-center" type="button"
-                                    data-target="#myModal" data-toggle="modal"><img class="product-overlay-btn-img" src="assets/img/visibility.png"></button><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Whistlist"><img class="product-overlay-btn-img" src="assets/img/heart.png"></a></div>
+                <div class="col product">
+                    <a href="#">
+                        <div class="product-warp"><img class="product-layout-list-img" src="assets/img/prod1.png" loading="lazy">
+                            <div class="product-overlay">
+                                <div class="product-overlay-group"><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Cart"><img class="product-overlay-btn-img" src="assets/img/bag.png"></a><button class="btn align-items-lg-center" type="button"
+                                        data-target="#myModal" data-toggle="modal"><img class="product-overlay-btn-img" src="assets/img/visibility.png"></button><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Whistlist"><img class="product-overlay-btn-img" src="assets/img/heart.png"></a></div>
+                            </div>
                         </div>
+                    </a>
+                    <div class="product-inner"><span class="product-inner-name">Blouse sleeve mocca</span>
+                        <div class="product-inner-price"><span class="product-inner-price-normal price-off">IDR 399.000</span><span class="product-inner-price-disc">IDR 250.000</span></div>
                     </div>
-                </a>
-                <div class="product-inner"><span class="product-inner-name">Blouse sleeve mocca</span>
-                    <div class="product-inner-price"><span class="product-inner-price-normal price-off">IDR 399.000</span><span class="product-inner-price-disc">IDR 250.000</span></div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="direct-sugest-product"><span class="product-detail-title">Recently Viewed</span>
-        <div class="row no-gutters product-layout-list-sugest mt-3">
-            <div class="col product">
-                <a href="#">
-                    <div class="product-warp"><img class="product-layout-list-img" src="assets/img/prod1.png" loading="lazy">
-                        <div class="product-overlay">
-                            <div class="product-overlay-group"><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Cart"><img class="product-overlay-btn-img" src="assets/img/bag.png"></a><button class="btn align-items-lg-center" type="button"
-                                    data-target="#myModal" data-toggle="modal"><img class="product-overlay-btn-img" src="assets/img/visibility.png"></button><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Whistlist"><img class="product-overlay-btn-img" src="assets/img/heart.png"></a></div>
+        <div class="direct-sugest-product"><span class="product-detail-title">Recently Viewed</span>
+            <div class="row no-gutters product-layout-list-sugest mt-3">
+                <div class="col product">
+                    <a href="#">
+                        <div class="product-warp"><img class="product-layout-list-img" src="assets/img/prod1.png" loading="lazy">
+                            <div class="product-overlay">
+                                <div class="product-overlay-group"><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Cart"><img class="product-overlay-btn-img" src="assets/img/bag.png"></a><button class="btn align-items-lg-center" type="button"
+                                        data-target="#myModal" data-toggle="modal"><img class="product-overlay-btn-img" src="assets/img/visibility.png"></button><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Whistlist"><img class="product-overlay-btn-img" src="assets/img/heart.png"></a></div>
+                            </div>
                         </div>
+                    </a>
+                    <div class="product-inner"><span class="product-inner-name">Blouse sleeve mocca</span>
+                        <div class="product-inner-price"><span class="product-inner-price-normal">IDR 399.000</span></div>
                     </div>
-                </a>
-                <div class="product-inner"><span class="product-inner-name">Blouse sleeve mocca</span>
-                    <div class="product-inner-price"><span class="product-inner-price-normal">IDR 399.000</span></div>
                 </div>
-            </div>
-            <div class="col product">
-                <a href="#">
-                    <div class="product-warp"><img class="product-layout-list-img" src="assets/img/prod1.png" loading="lazy">
-                        <div class="product-overlay">
-                            <div class="product-overlay-group"><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Cart"><img class="product-overlay-btn-img" src="assets/img/bag.png"></a><button class="btn align-items-lg-center" type="button"
-                                    data-target="#myModal" data-toggle="modal"><img class="product-overlay-btn-img" src="assets/img/visibility.png"></button><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Whistlist"><img class="product-overlay-btn-img" src="assets/img/heart.png"></a></div>
+                <div class="col product">
+                    <a href="#">
+                        <div class="product-warp"><img class="product-layout-list-img" src="assets/img/prod1.png" loading="lazy">
+                            <div class="product-overlay">
+                                <div class="product-overlay-group"><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Cart"><img class="product-overlay-btn-img" src="assets/img/bag.png"></a><button class="btn align-items-lg-center" type="button"
+                                        data-target="#myModal" data-toggle="modal"><img class="product-overlay-btn-img" src="assets/img/visibility.png"></button><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Whistlist"><img class="product-overlay-btn-img" src="assets/img/heart.png"></a></div>
+                            </div>
                         </div>
+                    </a>
+                    <div class="product-inner"><span class="product-inner-name">Blouse sleeve mocca</span>
+                        <div class="product-inner-price"><span class="product-inner-price-normal price-off">IDR 399.000</span><span class="product-inner-price-disc">IDR 250.000</span></div>
                     </div>
-                </a>
-                <div class="product-inner"><span class="product-inner-name">Blouse sleeve mocca</span>
-                    <div class="product-inner-price"><span class="product-inner-price-normal price-off">IDR 399.000</span><span class="product-inner-price-disc">IDR 250.000</span></div>
                 </div>
-            </div>
-            <div class="col product">
-                <a href="#">
-                    <div class="product-warp"><img class="product-layout-list-img" src="assets/img/prod1.png" loading="lazy">
-                        <div class="product-overlay">
-                            <div class="product-overlay-group"><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Cart"><img class="product-overlay-btn-img" src="assets/img/bag.png"></a><button class="btn align-items-lg-center" type="button"
-                                    data-target="#myModal" data-toggle="modal"><img class="product-overlay-btn-img" src="assets/img/visibility.png"></button><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Whistlist"><img class="product-overlay-btn-img" src="assets/img/heart.png"></a></div>
+                <div class="col product">
+                    <a href="#">
+                        <div class="product-warp"><img class="product-layout-list-img" src="assets/img/prod1.png" loading="lazy">
+                            <div class="product-overlay">
+                                <div class="product-overlay-group"><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Cart"><img class="product-overlay-btn-img" src="assets/img/bag.png"></a><button class="btn align-items-lg-center" type="button"
+                                        data-target="#myModal" data-toggle="modal"><img class="product-overlay-btn-img" src="assets/img/visibility.png"></button><a data-toggle="tooltip" data-bs-tooltip="" class="product-overlay-btn" href="#" title="Add to Whistlist"><img class="product-overlay-btn-img" src="assets/img/heart.png"></a></div>
+                            </div>
                         </div>
+                    </a>
+                    <div class="product-inner"><span class="product-inner-name">Blouse sleeve mocca</span>
+                        <div class="product-inner-price"><span class="product-inner-price-normal price-off">IDR 399.000</span><span class="product-inner-price-disc">IDR 250.000</span></div>
                     </div>
-                </a>
-                <div class="product-inner"><span class="product-inner-name">Blouse sleeve mocca</span>
-                    <div class="product-inner-price"><span class="product-inner-price-normal price-off">IDR 399.000</span><span class="product-inner-price-disc">IDR 250.000</span></div>
                 </div>
+                <div class="col product"></div>
             </div>
-            <div class="col product"></div>
         </div>
-    </div>
-    </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="assets/js/btn-to-top.js"></script>
-    <script src="assets/js/product-detail.js"></script>
-    <script src="assets/js/qty-incriment.js"></script>
-    <script src="assets/js/tab-information.js"></script>
+        </div>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/bs-init.js"></script>
+        <script src="assets/js/btn-to-top.js"></script>
+        <script src="assets/js/call-carousel.js"></script>
+        <script src="assets/js/carousel.js"></script>
+        <script src="assets/js/dropdown-nav.js"></script>
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/product-detail.js"></script>
+        <script src="assets/js/qty-incriment.js"></script>
+        <script src="assets/js/tab-information.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,75 @@
+.location-search {
+  margin: 20px 0px;
+}
+
+.location-serach-box {
+  background: rgba(0, 0, 0, 0);
+  outline: none;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #8c8c8c;
+  color: #6c6c6c;
+}
+
+.location-search-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -40px;
+}
+
+.search-button i {
+  width: 50px;
+  height: 20px;
+  object-fit: cover;
+  color: #6c6c6c;
+}
+
+.location-detail-frame {
+}
+
+.location-title {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.25em;
+  color: #434547;
+}
+
+.location-address {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.location-details {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.contact-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.contact-sub {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 0.25em;
+  color: #434547;
+  display: block;
+}
+
+.contact-sub-item {
+  font-size: 15px;
+  line-height: 25px;
+  color: #434547;
+}
+
+.hq-address {
+  font-size: 14px;
+  line-height: 30px;
+}
+

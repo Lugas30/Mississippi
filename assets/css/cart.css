@@ -1,6 +1,5 @@
 .shpcart-sum {
-  background-color: #FEEDCA;
-  width: 20%;
+  background-color: rgba(254,237,202,0.5);
 }
 
 .shpcart-sum-wrapper {
@@ -46,6 +45,7 @@
 
 .summary-button-warp {
   margin: 30px 0px 20px 0px;
+  width: 100%;
 }
 
 .input-group {
@@ -61,7 +61,7 @@
 }
 
 .summary-details-item {
-  margin: 0px 20px;
+  margin: auto 20px;
 }
 
 .summary-details-item-title {
@@ -99,6 +99,7 @@
 .summary-details-item-detail {
   font-size: 14px;
   padding: 5px 0px;
+  display: inline-flex;
 }
 
 .summary-details-item-detail span {

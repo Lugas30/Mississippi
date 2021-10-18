@@ -12,13 +12,18 @@
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/btn-to-top.css">
     <link rel="stylesheet" href="assets/css/button.css">
     <link rel="stylesheet" href="assets/css/career.css">
     <link rel="stylesheet" href="assets/css/cart.css">
     <link rel="stylesheet" href="assets/css/choose-color.css">
     <link rel="stylesheet" href="assets/css/choose-size-stock.css">
+    <link rel="stylesheet" href="assets/css/location.css">
     <link rel="stylesheet" href="assets/css/login-register.css">
+    <link rel="stylesheet" href="assets/css/mega-dropdown.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/product-detail.css">
     <link rel="stylesheet" href="assets/css/product-layout.css">
     <link rel="stylesheet" href="assets/css/product-quick-view.css">
@@ -31,19 +36,66 @@
 <body>
     <div class="main-banner"><img class="main-banner-logo" src="assets/img/Logowhite.png">
         <h1 class="main-banner-hero"><br>Burning brightly as a star, new collection is here<br><br></h1><img class="main-banner-img" src="assets/img/banner1.png" loading="lazy"></div>
-    <header class="site-header sticky-top">
+    <header class="site-header sticky-top navbar">
         <div class="sparator">
             <div class="sparator-content container"><span class="sparator-content-email">contact@mississippiladies.com</span>
-                <div class="sparator-content-nav"><a href="#">ACCOUNT</a><a href="#">SEARCH</a><a href="#">WISHLIST</a></div>
+                <div class="sparator-content-nav"><a href="#">ACCOUNT</a><a href="#">SEARCH</a><a href="wishlist.html">WISHLIST</a></div>
             </div>
         </div>
         <div class="site-header-main-nav container"><img class="site-header-main-nav-logo" src="assets/img/Logogreen.png">
             <ul class="site-header-main-nav-list">
-                <li><a href="#">SHOP</a></li>
-                <li><a href="#">LOOKBOOK</a></li>
-                <li><a href="#">LOCATION</a></li>
-                <li><a href="#">SALE</a></li>
-                <li><a href="#">CART (1)</a></li>
+                <li class="dropdown main-menu-list"><a class="menu-link-item" href="shop.html">SHOP</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="container-fluid px-5">
+                            <div class="row no-gutters" style="width: 100%;">
+                                <div class="col-md-2 col-lg-2">
+                                    <ul class="menu-dropdown-items normal-list flex-column">
+                                        <li class="nav-items"><a class="nav-links active">SHOP BY</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2 col-lg-2">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-items"><a class="nav-links active">CATEGORY</a></li>
+                                        <li class="item-menu"><a class="nav-links" href="#">View All</a></li>
+                                        <li class="item-menu"><a class="nav-links" href="#">Eyewear</a></li>
+                                        <li class="item-menu"><a class="nav-links" href="#">Bags</a></li>
+                                        <li class="item-menu"><a class="nav-links" href="#">Stuff</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2 col-lg-2">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-items"><a class="nav-links active">COLLECTION</a></li>
+                                        <li class="item-menu"><a class="nav-links" href="#">Speed Rabel</a></li>
+                                        <li class="item-menu"><a class="nav-links" href="#">New Legacy</a></li>
+                                        <li class="item-menu"><a class="nav-links" href="#">Ramadhan Kareem</a></li>
+                                        <li class="item-menu"><a class="nav-links" href="#">Christmas Eve</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2 col-lg-2">
+                                    <ul class="nav flex-column">
+                                        <li class="item-menu"><a class="nav-links i" href="collection-campaign.html"><img class="dropdown-img" src="assets/img/prod1.png"><br>Blouse Sleeve Mocca<br><br></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2 col-lg-2">
+                                    <ul class="nav flex-column">
+                                        <li class="item-menu"><a class="nav-links i" href="#"><img class="dropdown-img" src="assets/img/prod2.png"><br>Blouse Sleeve Mocca<br></a></li>
+                                        <li class="item-menu"><a class="nav-link i" href="#"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2 col-lg-2">
+                                    <ul class="nav flex-column">
+                                        <li class="item-menu"><a class="nav-links i" href="#"><img class="dropdown-img" src="assets/img/prod3.png"><br>Blouse Sleeve Mocca<br></a></li>
+                                        <li class="nav-items"><a class="nav-link i" href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-menu-list"><a class="menu-link-item" href="#">LOOKBOOK</a></li>
+                <li class="main-menu-list"><a class="menu-link-item" href="location.html">LOCATION</a></li>
+                <li class="main-menu-list"><a class="menu-link-item" href="shop.html">SALE</a></li>
+                <li class="main-menu-list"><a class="menu-link-item" href="cart.html">CART (1)</a></li>
             </ul>
         </div>
     </header>
@@ -81,7 +133,7 @@
                 </div>
             </div>
         </div>
-        <div class="button-warp"><a class="btn-type-1" href="#">SHOP ALL</a></div>
+        <div class="button-warp"><a class="btn-type-1" href="shop.html">SHOP ALL</a></div>
         <div class="video-canal"><video width="100%" height="auto" controls=""><source type="video/mp4"><track kind="subtitles"></video></div>
         <div class="content-headline"><span class="content-headline-mini"><strong>LOOKBOOK</strong></span><span class="content-headline-big">Some of the jewels from our <br>new summer casual wear collection</span></div>
         <div class="lookbook-direct">
@@ -174,6 +226,11 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/btn-to-top.js"></script>
+    <script src="assets/js/call-carousel.js"></script>
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/dropdown-nav.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/product-detail.js"></script>
     <script src="assets/js/qty-incriment.js"></script>
     <script src="assets/js/tab-information.js"></script>
