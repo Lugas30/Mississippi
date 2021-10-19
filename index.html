@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/btn-to-top.css">
@@ -21,12 +22,14 @@
     <link rel="stylesheet" href="assets/css/choose-size-stock.css">
     <link rel="stylesheet" href="assets/css/location.css">
     <link rel="stylesheet" href="assets/css/login-register.css">
+    <link rel="stylesheet" href="assets/css/lookbook.css">
     <link rel="stylesheet" href="assets/css/mega-dropdown.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/product-detail.css">
     <link rel="stylesheet" href="assets/css/product-layout.css">
     <link rel="stylesheet" href="assets/css/product-quick-view.css">
+    <link rel="stylesheet" href="assets/css/search.css">
     <link rel="stylesheet" href="assets/css/shipping.css">
     <link rel="stylesheet" href="assets/css/shop-dropdown.css">
     <link rel="stylesheet" href="assets/css/sidebar.css">
@@ -39,7 +42,12 @@
     <header class="site-header sticky-top navbar">
         <div class="sparator">
             <div class="sparator-content container"><span class="sparator-content-email">contact@mississippiladies.com</span>
-                <div class="sparator-content-nav"><a href="#">ACCOUNT</a><a href="#">SEARCH</a><a href="wishlist.html">WISHLIST</a></div>
+                <div class="sparator-content-nav"><a href="#">ACCOUNT</a><a id="myBtn" href="#" role="button">SEARCH</a>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content"><span class="btn-close"><i class="material-icons">close</i></span>
+                            <div class="navbar-search"><input type="search" id="mySearch" class="navbar-serach-box" placeholder="Enter keywords, e.g. dress, heels, etc." autofocus=""><button class="btn location-search-button" type="button"><i class="icon-magnifier"></i></button></div>
+                        </div>
+                    </div><a href="wishlist.html">WISHLIST</a></div>
             </div>
         </div>
         <div class="site-header-main-nav container"><img class="site-header-main-nav-logo" src="assets/img/Logogreen.png">
@@ -65,8 +73,8 @@
                                 <div class="col-md-2 col-lg-2">
                                     <ul class="nav flex-column">
                                         <li class="nav-items"><a class="nav-links active">COLLECTION</a></li>
-                                        <li class="item-menu"><a class="nav-links" href="#">Speed Rabel</a></li>
-                                        <li class="item-menu"><a class="nav-links" href="#">New Legacy</a></li>
+                                        <li class="item-menu"><a class="nav-links" href="#">PAVEING THEWAY</a></li>
+                                        <li class="item-menu"><a class="nav-links" href="#">DENIM COLLECTION</a></li>
                                         <li class="item-menu"><a class="nav-links" href="#">Ramadhan Kareem</a></li>
                                         <li class="item-menu"><a class="nav-links" href="#">Christmas Eve</a></li>
                                     </ul>
@@ -188,8 +196,8 @@
     </main>
     <footer class="footer-warp">
         <div class="container">
-            <div class="row footer-content">
-                <div class="col-md-4 footer-content-logo pb-2"><a href="#"><img src="assets/img/Logowhite.png"></a></div>
+            <div class="row no-gutters footer-content">
+                <div class="col-md-3 footer-content-logo pb-2"><a href="#"><img src="assets/img/Logowhite.png"></a></div>
                 <div class="col-md-2 footer-content-info pb-2"><span class="footer-content-info-title">INFO</span>
                     <ul class="footer-content-info-list">
                         <li><a href="#">ABOUT</a></li>
@@ -206,22 +214,16 @@
                         <li><a href="#">RETURN POLICY</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4 pb-2">
+                <div class="col-md-5 pb-2">
                     <div class="subcribe"><span>Subscribe to Mississippi Ladies<br>newsletter and share our story.</span></div>
-                    <div><div class="group">
-    <input class="ginput" type="text" required>
-    <label class="glabel">Your Email</label>
-</div>
-
-
-</div>
+                    <div class="footer-input-warp"><input type="email" class="footer-input-email" placeholder="Your Email"><button class="btn btn-arrow" type="button"><i class="icon-arrow-right"></i></button></div>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="copyrights"><span>© 2021 Mississippi Ladies. All rights reserved.</span></div>
         </div>
-    </footer><span>https://bootsnipp.com/snippets/Gq0z2&nbsp; (dropdown)</span>
+    </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
@@ -233,6 +235,7 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/product-detail.js"></script>
     <script src="assets/js/qty-incriment.js"></script>
+    <script src="assets/js/search-navbar.js"></script>
     <script src="assets/js/tab-information.js"></script>
 </body>
 

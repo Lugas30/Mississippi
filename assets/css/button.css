@@ -16,7 +16,8 @@
 }
 
 .btn-type-1:hover {
-  color: #434547;
+  color: #ffffff;
+  background-color: #003C35;
   text-decoration: none;
 }
 

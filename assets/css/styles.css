@@ -375,8 +375,8 @@ h4, h5, h6, p, span, a, li, button, textarea, input, label {
 
 .footer-content-info li a {
   color: white;
-  font-size: 12px;
-  line-height: 2;
+  font-size: 14px;
+  line-height: 28px;
 }
 
 .footer-content-help {
@@ -395,8 +395,35 @@ h4, h5, h6, p, span, a, li, button, textarea, input, label {
 
 .footer-content-help li a {
   color: white;
-  font-size: 12px;
-  line-height: 2;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.footer-input-warp {
+  display: inline-flex;
+  width: 100%;
+}
+
+.footer-input-email {
+  display: block;
+  font-size: 16px;
+  height: 50px;
+  width: 100%;
+  top: 349px;
+  background: rgba(254,237,202,0);
+  border: none;
+  border-bottom: 1px solid;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.btn-arrow i {
+  color: #ffffff;
+  position: absolute;
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -25px;
 }
 
 .subcribe {
@@ -485,5 +512,10 @@ h4, h5, h6, p, span, a, li, button, textarea, input, label {
 
 .disc-percentage {
   font-weight: 700;
+}
+
+.tnc-paragraph {
+  font-size: 16px;
+  line-height: 24px;
 }
 

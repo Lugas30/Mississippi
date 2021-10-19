@@ -1,0 +1,51 @@
+.look-collection-link {
+}
+
+.look-collection-link:hover {
+  text-decoration: none;
+}
+
+.look-collection-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.look-collection-title {
+  font-family: Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+  color: #003C35;
+}
+
+.look-collection-desc {
+  font-size: 16px;
+  line-height: 34px;
+  padding-bottom: 40px;
+  text-align: justify;
+}
+
+.look-detail-block {
+  display: block;
+  margin: 40px 0px;
+}
+
+.detail-title {
+  font-family: 'Nunito Sans';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #434547;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.detail-text {
+  display: block;
+  font-family: 'Nunito Sans';
+}
+
