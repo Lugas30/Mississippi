@@ -133,6 +133,12 @@ h4, h5, h6, p, span, a, li, button, textarea, input, label {
   transform: translate(-50%);
 }
 
+@media (max-width: 768px) {
+  .sparator {
+    display: none;
+  }
+}
+
 .sparator {
   width: 100%;
   height: 46px;
@@ -176,9 +182,20 @@ h4, h5, h6, p, span, a, li, button, textarea, input, label {
   font-size: 12px;
 }
 
+.site-header-main-nav ul {
+  vertical-align: middle;
+}
+
 .site-header-main-nav-logo {
   display: inline;
   padding: 10px 0px;
+}
+
+@media (max-width: 768px) {
+  .site-header-main-nav-list .main-menu-list:not(:last-child) {
+    display: none;
+    vertical-align: middle;
+  }
 }
 
 .site-header-main-nav-list {
@@ -251,7 +268,7 @@ h4, h5, h6, p, span, a, li, button, textarea, input, label {
 /* -- Product direct -- */
 
 .product-direct {
-  padding: 25px 0px;
+  /*padding: 25px 0px;*/
 }
 
 .product-direct-img {
@@ -319,7 +336,13 @@ h4, h5, h6, p, span, a, li, button, textarea, input, label {
 .info-block {
   position: relative;
   vertical-align: middle;
-  padding: 80px 0px;
+  padding: 30px 0px;
+}
+
+.info-block {
+  position: relative;
+  vertical-align: middle;
+  padding: 80px 0px 20px 0px;
 }
 
 .info-block-icon {

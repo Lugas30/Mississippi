@@ -1,26 +1,23 @@
 .product-layout {
-  margin-left: 200px;
+  margin-left: 190px;
 }
 
-@media screen and (max-width: 700px) {
+@media (max-width: 768px) {
   .product-layout {
     margin-left: 0;
   }
 }
 
 .product-layout-list {
-  /*display: grid;*/
   text-align: center;
-  height: auto;
-  align-content: space-evenly;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  padding: 10px 0px 10px 10px;
 }
 
 .product {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding: 5px;
+}
+
+.container-produk {
+  margin: 10px;
 }
 
 .product-warp {
@@ -130,6 +127,14 @@
   position: relative;
 }
 
+@media (max-width: 576px) {
+  .showing {
+    vertical-align: middle;
+    display: block;
+    position: relative;
+  }
+}
+
 .sort-block {
   display: flex;
   float: right;
@@ -137,6 +142,14 @@
   text-decoration: none;
   white-space: nowrap;
   transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 576px) {
+  .sort-block {
+    display: flex;
+    width: 100%;
+    margin: 10px 0px;
+  }
 }
 
 .sortBtn:hover {
@@ -147,7 +160,14 @@
 .sortFrame {
   padding: 10px;
   border: 1px solid #434547;
-  width: 200px;
+  max-width: 200px;
+}
+
+@media (max-width: 576px) {
+  .sortFrame {
+    padding: 10px;
+    border: 1px solid #434547;
+  }
 }
 
 .sortFrame li {

@@ -1,6 +1,6 @@
 /* The Modal (background) */
 
-.modal {
+.modal-src {
   display: none;
   position: fixed;
   z-index: 1;
@@ -16,7 +16,7 @@
 
 /* Modal Content/Box */
 
-.modal-content {
+.modal-content-src {
   background-color: #fbf1dd;
   padding: 20px;
   border: none;

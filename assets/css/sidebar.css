@@ -1,18 +1,22 @@
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+
 .sidebar {
   margin: 0;
-  width: 200px;
-  /*background-color: rgb(179,172,172);*/
+  max-width: 190px;
   position: absolute;
-  overflow: auto;
 }
 
 .sidebar-search-box {
   background: rgba(0, 0, 0, 0);
   outline: none;
   height: 40px;
-  width: 100%;
+  width: 95%;
   border: none;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #9a9a9a;
 }
 
 .sidebar-filter {

@@ -16,7 +16,11 @@
   background: transparent;
   border: none;
   outline: none;
-  margin-left: -40px;
+  margin-left: -20px;
+}
+
+.btn.location-search-button {
+  padding: 0px 0px;
 }
 
 .search-button i {
@@ -71,5 +75,9 @@
 .hq-address {
   font-size: 14px;
   line-height: 30px;
+}
+
+.loc-input {
+  padding: 5px;
 }
 
