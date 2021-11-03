@@ -44,8 +44,37 @@
   padding-bottom: 10px;
 }
 
+.detail-items-mix {
+  font-family: 'Nunito Sans';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #434547;
+  display: block;
+  padding-bottom: 10px;
+}
+
 .detail-text {
   display: block;
   font-family: 'Nunito Sans';
+}
+
+.detail-items-name {
+  display: block;
+  font-family: 'Nunito Sans';
+  /*margin: 10px 0px;*/
+}
+
+.detail-items-price {
+  display: block;
+  font-family: 'Nunito Sans';
+  margin: 10px 0px;
+}
+
+.look-detail-mix {
+  display: block;
+  margin: 20px 0px;
 }
 

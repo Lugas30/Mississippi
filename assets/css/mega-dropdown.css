@@ -56,6 +56,12 @@
   color: #434547;
 }
 
+.nav-links:hover {
+  color: #003C35;
+  text-decoration: none;
+  font-weight: 700;
+}
+
 a.nav-links.active {
   color: #434547;
   font-size: 12px;

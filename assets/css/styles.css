@@ -170,6 +170,12 @@ h4, h5, h6, p, span, a, li, button, textarea, input, label {
   text-transform: uppercase;
 }
 
+.sparator-content-nav a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
 /* -- Site header (Navbar) -- */
 
 .site-header {
@@ -215,6 +221,11 @@ h4, h5, h6, p, span, a, li, button, textarea, input, label {
 .site-header-main-nav-list .main-menu-list .menu-link-item {
   color: #003C35;
   letter-spacing: 0.25em;
+  padding-bottom: 5px;
+}
+
+.menu-link-item:hover {
+  text-decoration: none;
 }
 
 /* -- Title header -- */
@@ -540,5 +551,31 @@ h4, h5, h6, p, span, a, li, button, textarea, input, label {
 .tnc-paragraph {
   font-size: 16px;
   line-height: 24px;
+}
+
+/* -- Underline animation -- */
+
+.hover-underline {
+  display: inline-block;
+  position: relative;
+  color: #003C35;
+}
+
+.hover-underline:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #003C35;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
