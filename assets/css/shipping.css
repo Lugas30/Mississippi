@@ -12,3 +12,27 @@
   width: 30%;
 }
 
+@media (max-width: 768px) {
+  .shipping-button-warp {
+    width: 100%;
+  }
+}
+
+.shipping-img {
+  max-width: 120px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .shipping-img {
+    max-width: 60px;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .summary-details-item-desk {
+    display: none;
+  }
+}
+
