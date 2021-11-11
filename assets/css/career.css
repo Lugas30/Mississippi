@@ -13,13 +13,42 @@
   margin-bottom: 5rem;
 }
 
+@media (max-width: 768px) {
+  .career-contact-cv {
+    text-decoration: none;
+    color: #434547;
+    font-size: 11px;
+    border: 1px solid #434547;
+    padding: 10px 15px;
+    height: 80px;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+}
+
 .career-contact-cv-ask {
   display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .career-contact-cv-ask {
+    display: block;
+    line-height: 20px;
+  }
 }
 
 .career-contact-cv-email {
   float: right;
   display: inline-flex;
+}
+
+@media (max-width: 768px) {
+  .career-contact-cv-email {
+    float: left;
+    display: block;
+    line-height: 20px;
+  }
 }
 
 .career-contact-cv-email strong {
