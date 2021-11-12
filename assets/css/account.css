@@ -1,0 +1,59 @@
+.detail-history span {
+  font-size: 14px;
+  font-family: 'Nunito Sans';
+  line-height: 25px;
+}
+
+.filter-history .acount-filterBtn {
+  border: solid 1px rgba(0,0,0,0.12);
+  padding: 10px 30px;
+  margin: 20px;
+  color: black;
+}
+
+.profile-contain {
+}
+
+.name-email {
+  padding-bottom: 20px;
+}
+
+.name-email h1 {
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.name-email span {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.profile-contain-addres h3 {
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.profile-contain-addres span {
+  display: block;
+  line-height: 24px;
+}
+
+.sortFrame-history {
+  padding: 10px;
+  max-width: 200px;
+}
+
+@media (max-width: 576px) {
+  .sortFrame-history {
+    padding: 10px;
+  }
+}
+
+.sortFrame-history li {
+  padding: 10px;
+}
+
+.sortFrame-history li a {
+  color: #434547;
+}
+
