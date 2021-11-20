@@ -129,3 +129,15 @@
   color: #434547;
 }
 
+.btn-quick {
+  align-items: center;
+  width: 45%;
+  border-radius: 0px;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.btn-quick:hover {
+  background-color: white;
+}
+

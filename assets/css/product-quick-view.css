@@ -1,7 +1,13 @@
 /* Modal Quick View Content */
 
+.modal-body.mod-body {
+  /*margin: 0px;*/
+  padding: 30px;
+  border-radius: 0px;
+}
+
 .quickview-content {
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .quickview-content-title {
