@@ -56,6 +56,13 @@
   color: #434547;
   display: block;
   margin-bottom: 10px;
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .btn-add-cart {
+    width: 100%;
+  }
 }
 
 .btn-add-cart:hover {
@@ -74,6 +81,13 @@
   letter-spacing: 0.35em;
   color: #434547;
   display: block;
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .btn-add-wishlist {
+    width: 100%;
+  }
 }
 
 .btn-login-register {

@@ -19,6 +19,15 @@
   border-bottom: 1px solid #9a9a9a;
 }
 
+.main-search-box {
+  background: rgba(0, 0, 0, 0);
+  outline: none;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #9a9a9a;
+}
+
 .sidebar-filter {
 }
 
