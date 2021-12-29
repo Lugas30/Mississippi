@@ -155,3 +155,25 @@
   background-color: white;
 }
 
+.btn-account {
+  border: 1px solid #434547;
+  display: inline-block;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 14px;
+  text-align: center;
+  border-radius: 0px;
+  letter-spacing: 0.35em;
+  color: #434547;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.btn-account:hover {
+  color: #ffffff;
+  background-color: #003C35;
+  text-decoration: none;
+}
+
