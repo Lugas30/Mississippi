@@ -1,0 +1,22 @@
+.tb-baris {
+  height: 24px;
+}
+
+.tb-sub {
+  width: 120px;
+}
+
+.tb-bold {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.table.tb-product {
+  font-size: 14px;
+}
+
+.tb-head {
+  background-color: #003C35;
+  color: white;
+}
+

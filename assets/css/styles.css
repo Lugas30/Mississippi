@@ -63,6 +63,11 @@ h1, h2, h3, {
   font-family: 'Libre Baskerville';
 }
 
+h2 {
+  font-size: 30px;
+  color: #003C35;
+}
+
 h4, h5, h6, p, span, a, li, button, textarea, input, label {
   font-family: 'Nunito Sans';
 }
